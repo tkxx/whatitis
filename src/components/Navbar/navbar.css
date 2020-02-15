@@ -1,0 +1,9 @@
+li {
+  display: inline-block;
+  text-decoration: none;
+}
+
+#sidebar {
+  float: left;
+  position: sticky;
+}
