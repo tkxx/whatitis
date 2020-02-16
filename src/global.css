@@ -10,3 +10,17 @@ p {
   font-weight: bold;
   font-size: 2em;
 }
+
+#main-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10%;
+}
+
+#footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
