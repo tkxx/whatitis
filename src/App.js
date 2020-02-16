@@ -8,8 +8,10 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <h1>Tabitha Sin</h1>
-      <p>web developer</p>
+      <p>
+        Hi! I'm <span className="bold-text">Tabitha</span>, a full stack web
+        developer looking for my next opportunity to create change.{" "}
+      </p>
       <Footer />
     </div>
   );
