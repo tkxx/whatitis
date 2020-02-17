@@ -6,14 +6,19 @@ const Footer = () => {
     <React.Fragment>
       <div id="footer">
         <p>
-          <span role="img" aria-label="heart-exclamation">
-            ❣️
+          made with plenty of{" "}
+          <span role="img" aria-label="coffee">
+            ☕
           </span>{" "}
-          in NYC. images from canva.{" "}
+          and{" "}
+          <span role="img" aria-label="dumplings">
+            🥟
+          </span>
+          // images from canva //{" "}
           <span role="img" aria-label="copyright">
             ©️
           </span>{" "}
-          2020.
+          2020
         </p>
       </div>
     </React.Fragment>
