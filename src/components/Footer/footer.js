@@ -5,7 +5,16 @@ const Footer = () => {
   return (
     <React.Fragment>
       <div id="footer">
-        <p>heart in NYC. images from canva. (c) 2020.</p>
+        <p>
+          <span role="img" aria-label="heart-exclamation">
+            ❣️
+          </span>{" "}
+          in NYC. images from canva.{" "}
+          <span role="img" aria-label="copyright">
+            ©️
+          </span>{" "}
+          2020.
+        </p>
       </div>
     </React.Fragment>
   );

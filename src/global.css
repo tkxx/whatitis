@@ -1,14 +1,30 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat|Source+Code+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Source+Code+Pro|Londrina+Outline&display=swap");
+
+body {
+  background: rgb(250, 248, 187);
+  background: linear-gradient(
+    90deg,
+    rgba(250, 248, 187, 1) 0%,
+    rgba(161, 15, 50, 1) 100%
+  );
+}
+
+h1 {
+  font-family: "Londrina Outline", cursive;
+  color: #3a1f5d;
+  font-size: 5.5em;
+  letter-spacing: 25px;
+}
 
 p {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.3em;
 }
 
 .bold-text {
   font-family: "Source Code Pro", monospace;
-  font-weight: bold;
-  font-size: 2em;
+  /* font-weight: bold; */
+  color: #ffffff;
+  font-size: 1.3em;
 }
 
 #main-box {
@@ -17,10 +33,14 @@ p {
   align-items: center;
   flex-direction: column;
   padding-top: 10%;
+  line-height: 30%;
 }
 
 #footer {
   width: 100%;
   position: fixed;
   bottom: 0;
+  text-align: right;
+  font-size: 0.8em;
+  color: white;
 }

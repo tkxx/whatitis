@@ -5,8 +5,8 @@ const Main = () => {
   return (
     <React.Fragment>
       <div id="main-box">
-        <h1>Tabitha Sin</h1>
-        <p id="tagline">web developer. voracious learner.</p>
+        <h1>TABITHA SIN</h1>
+        <p className="bold-text">web developer. voracious learner.</p>
       </div>
     </React.Fragment>
   );
