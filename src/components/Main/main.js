@@ -6,7 +6,10 @@ const Main = () => {
     <React.Fragment>
       <div id="main-box">
         <h1>TABITHA SIN</h1>
-        <p className="bold-text">web developer. voracious learner.</p>
+        <p className="bold-text">
+          web developer. speculative writer. trying to create change one line at
+          a time.
+        </p>
       </div>
     </React.Fragment>
   );
