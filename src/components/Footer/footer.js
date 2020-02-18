@@ -14,7 +14,11 @@ const Footer = () => {
           <span role="img" aria-label="dumplings">
             🥟
           </span>{" "}
-          // images from canva //{" "}
+          // images from{" "}
+          <a href="https://www.canva.com" target="_blank">
+            canva
+          </a>{" "}
+          //{" "}
           <span role="img" aria-label="copyright">
             ©️
           </span>{" "}

@@ -13,11 +13,17 @@ const Main = () => {
       <div id="main-box">
         <h1>TABITHA SIN</h1>
         <p className="bold-text">
-          web developer. speculative writer.{" "}
-          <p>trying to create change one line at a time.</p>
+          web developer. speculative writer.
+          <p className="bold-text">
+            trying to create change one line at a time.
+          </p>
         </p>
         <div id="icons">
-          <a href="https://www.github.com/tkxx" target="_blank">
+          <a
+            href="https://www.github.com/tkxx"
+            target="_blank"
+            className="icon-links"
+          >
             <FontAwesomeIcon icon={faGithub} size="2x" />
           </a>{" "}
           <a href="https://www.twitter.com/lazyloading_" target="_blank">

@@ -10,7 +10,6 @@ const Navbar = () => {
         <ul>
           <li>ABOUT</li>
           <li>WORK</li>
-          <li>CONTACT</li>
         </ul>
       </nav>
     </React.Fragment>
