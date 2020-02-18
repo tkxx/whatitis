@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <React.Fragment>
       <div id="footer">
-        <p>
+        <p id="footer-text">
           made with plenty of{" "}
           <span role="img" aria-label="coffee">
             ☕
@@ -13,7 +13,7 @@ const Footer = () => {
           and{" "}
           <span role="img" aria-label="dumplings">
             🥟
-          </span>
+          </span>{" "}
           // images from canva //{" "}
           <span role="img" aria-label="copyright">
             ©️
