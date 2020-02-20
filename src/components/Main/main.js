@@ -5,12 +5,14 @@ import {
   faTwitter,
   faLinkedinIn
 } from "@fortawesome/free-brands-svg-icons";
+import peaceSign from "../../images/peaceSign.svg";
 import "../../global.css";
 
 const Main = () => {
   return (
     <React.Fragment>
       <div id="main-box">
+        <img src={peaceSign} id="peace-sign" />
         <h1>TABITHA SIN</h1>
         <p className="bold-text">
           web developer. speculative writer.
