@@ -1,12 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat|Source+Code+Pro|Londrina+Outline&display=swap");
 
 body {
-  background: rgb(250, 248, 187);
-  background: linear-gradient(
-    90deg,
-    rgba(250, 248, 187, 1) 0%,
-    rgba(161, 15, 50, 1) 100%
-  );
+  background-image: url("./images/cocora-valley-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-size: cover; */
+  object-fit: cover;
 }
 
 h1 {

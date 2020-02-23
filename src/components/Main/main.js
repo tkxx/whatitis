@@ -5,6 +5,7 @@ import {
   faTwitter,
   faLinkedinIn
 } from "@fortawesome/free-brands-svg-icons";
+import { faLaptopCode } from "@fortawesome/free-solid-svg-icons";
 import peaceSign from "../../images/peaceSign.svg";
 import "../../global.css";
 
@@ -21,6 +22,7 @@ const Main = () => {
           </p>
         </p>
         <div id="icons">
+          <FontAwesomeIcon icon={faLaptopCode} size="2x" />{" "}
           <a
             href="https://www.github.com/tkxx"
             target="_blank"
