@@ -1,7 +1,7 @@
 import React from "react";
 import "../../global.css";
 
-const Footer = () => {
+function Footer(props) {
   return (
     <React.Fragment>
       <div id="footer">
@@ -14,11 +14,11 @@ const Footer = () => {
           <span role="img" aria-label="dumplings">
             🥟
           </span>{" "}
-          // images from{" "}
+          // icons from{" "}
           <a href="https://www.canva.com" target="_blank">
             canva
           </a>{" "}
-          //{" "}
+          and <a href="https://www.fontawesome.com">fontawesome</a> //{" "}
           <span role="img" aria-label="copyright">
             ©️
           </span>{" "}
@@ -27,6 +27,6 @@ const Footer = () => {
       </div>
     </React.Fragment>
   );
-};
+}
 
 export default Footer;

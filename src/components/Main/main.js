@@ -6,14 +6,18 @@ import {
   faLinkedinIn
 } from "@fortawesome/free-brands-svg-icons";
 import { faLaptopCode } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
+import Footer from "../Footer/footer";
 import peaceSign from "../../images/peaceSign.svg";
 import "../../global.css";
 
-const Main = () => {
+const Main = props => {
   return (
     <React.Fragment>
       <div id="main-box">
-        <img src={peaceSign} id="peace-sign" />
+        {/* <span>
+          <img src={peaceSign} id="peace-sign" />
+        </span> */}
         <h1>TABITHA SIN</h1>
         <p className="bold-text">
           web developer. speculative writer.
@@ -22,7 +26,9 @@ const Main = () => {
           </p>
         </p>
         <div id="icons">
-          <FontAwesomeIcon icon={faLaptopCode} size="2x" />{" "}
+          <Link to="/work">
+            <FontAwesomeIcon icon={faLaptopCode} size="2x" />
+          </Link>{" "}
           <a
             href="https://www.github.com/tkxx"
             target="_blank"
@@ -38,6 +44,7 @@ const Main = () => {
           </a>
         </div>
       </div>
+      <Footer />
     </React.Fragment>
   );
 };

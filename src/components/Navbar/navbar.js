@@ -5,7 +5,7 @@ import "./navbar.css";
 const Navbar = () => {
   return (
     <React.Fragment>
-      <nav id="sidebar">
+      <nav id="navbar">
         <img src={peaceSign} id="peace-sign" />
         <ul>
           <li>ABOUT</li>

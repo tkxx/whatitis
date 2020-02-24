@@ -4,7 +4,6 @@ body {
   background-image: url("./images/cocora-valley-bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  /* background-size: cover; */
   object-fit: cover;
 }
 
@@ -23,7 +22,7 @@ p {
 .bold-text {
   font-family: "Source Code Pro", monospace;
   /* font-weight: bold; */
-  color: #ffffff;
+  color: black;
   font-size: 1em;
   text-align: center;
 }
@@ -44,7 +43,7 @@ p {
   bottom: 0;
   text-align: right;
   font-size: 0.8em;
-  color: white;
+  color: black;
 }
 
 #footer-text {
@@ -58,9 +57,11 @@ p {
 
 a {
   text-decoration: none;
-  color: #d7f7f5;
+  color: #a72461;
 }
 
 a:hover {
+  color: #a72461;
   opacity: 0.5;
+  text-decoration: none;
 }

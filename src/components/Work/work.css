@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Source+Code+Pro|Londrina+Outline&display=swap");
+
+h2 {
+  font-family: "Londrina Outline", cursive;
+  color: #a72461;
+  font-size: 3.5em;
+  text-align: center;
+}
+
+h4 {
+  font-family: "Source Code Pro", monospace;
+  color: #a72461;
+  font-weight: 800;
+}
+
+.card-titles {
+  font-family: "Source Code Pro", monospace;
+  font-weight: 600;
+}
+
+#card-pic-db {
+  height: 400px;
+  width: 400px;
+}
+
+#card-pic-projectify {
+  height: 250px;
+  width: 400px;
+}
+
+#devBeatz-card {
+  padding-right: 5%;
+}
+
+.card-overall {
+  display: flex;
+  flex-flow: row wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card-details {
+  background: white;
+  width: 400px;
+  /* opacity: 0.7; */
+}
+
+.card-body {
+  font-weight: 100;
+  font-size: 0.8em;
+}

@@ -1,11 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat|Source+Code+Pro&display=swap");
 
-#sidebar {
-  margin-top: 10%;
+#navbar {
+  /* margin-top: 10%; */
   display: flex;
-  flex-direction: column;
   align-content: center;
-  float: left;
 }
 
 ul {
@@ -15,5 +13,6 @@ ul {
 }
 
 #peace-sign {
-  margin-left: 20px;
+  height: 100px;
+  width: 100px;
 }
