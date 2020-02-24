@@ -14,7 +14,7 @@ const Work = props => {
     <React.Fragment>
       <h2 id="work-headline">
         <Link to="/">
-          <img src={peaceSign} />
+          <img src={peaceSign} id="peaceSign" />
         </Link>
         WORK
       </h2>
