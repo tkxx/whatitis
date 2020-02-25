@@ -11,8 +11,9 @@ h1 {
   font-family: "Londrina Outline", cursive;
   color: #a72461;
   font-size: 5.5em;
+  font-weight: 800;
   letter-spacing: 25px;
-  text-shadow: 1px 1px #d7f7f5;
+  text-shadow: 2px 2px #d7f7f5;
 }
 
 p {
@@ -52,6 +53,7 @@ p {
 
 #icons {
   display: inline-block;
+  padding-top: 1.5%;
   /* justify-content: space-evenly; */
 }
 

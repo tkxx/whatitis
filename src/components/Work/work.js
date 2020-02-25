@@ -1,7 +1,10 @@
 import React from "react";
 import Footer from "../Footer/footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faExternalLinkSquareAlt } from "@fortawesome/free-solid-svg-icons";
+import {
+  faExternalLinkSquareAlt,
+  faAngleDoubleLeft
+} from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
 import "../../components/Work/work.css";
@@ -13,26 +16,30 @@ const Work = props => {
   return (
     <React.Fragment>
       <h2 id="work-headline">
-        <Link to="/">
-          <img src={peaceSign} id="peaceSign" />
-        </Link>
+        <Link to="/" title="Home">
+          <FontAwesomeIcon icon={faAngleDoubleLeft} size="xs" />
+        </Link>{" "}
         WORK
       </h2>
       <div className="card-overall">
         <div id="devBeatz-card">
           <img src={dbHomepage} id="card-pic-db" />
           <div className="card-details">
-            <h4>
+            <h5>
               DevBeatz{" "}
               <span>
-                <a href="http://www.devbeatz.xyz/#/" target="_blank">
+                <a
+                  href="http://www.devbeatz.xyz/#/"
+                  target="_blank"
+                  title="DevBeatz"
+                >
                   <FontAwesomeIcon icon={faExternalLinkSquareAlt} size="sm" />
                 </a>{" "}
                 <a href="https://github.com/devbeatz/devbeatz" target="_blank">
                   <FontAwesomeIcon icon={faGithub} size="sm" />
                 </a>
               </span>
-            </h4>
+            </h5>
             <p className="card-titles">
               What is it?
               <span className="card-body">
@@ -54,17 +61,21 @@ const Work = props => {
         <div id="projectify-card">
           <img src={projectifyHomepage} id="card-pic-projectify" />
           <div className="card-details">
-            <h4>
+            <h5>
               Projectify{" "}
               <span>
-                <a href="http://www.projectify.space/#/" target="_blank">
+                <a
+                  href="http://www.projectify.space/#/"
+                  target="_blank"
+                  title="Projectify"
+                >
                   <FontAwesomeIcon icon={faExternalLinkSquareAlt} size="sm" />
                 </a>{" "}
                 <a href="https://github.com/tkxx/Projectify" target="_blank">
                   <FontAwesomeIcon icon={faGithub} size="sm" />
                 </a>
               </span>
-            </h4>
+            </h5>
             <p className="card-titles">
               What is it?{" "}
               <span className="card-body">

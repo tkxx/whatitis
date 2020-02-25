@@ -15,33 +15,34 @@ const Main = props => {
   return (
     <React.Fragment>
       <div id="main-box">
-        {/* <span>
-          <img src={peaceSign} id="peace-sign" />
-        </span> */}
         <h1>TABITHA SIN</h1>
-        <p className="bold-text">
-          web developer. speculative writer.
-          <p className="bold-text">
-            trying to create change one line at a time.
-          </p>
-        </p>
+        <p className="bold-text">full stack web developer</p>
         <div id="icons">
-          <Link to="/work">
+          <Link to="/work" title="Work">
             <FontAwesomeIcon icon={faLaptopCode} size="2x" />
           </Link>{" "}
           <a
             href="https://www.github.com/tkxx"
             target="_blank"
+            title="Github"
             className="icon-links"
           >
             <FontAwesomeIcon icon={faGithub} size="2x" />
           </a>{" "}
-          <a href="https://www.twitter.com/lazyloading_" target="_blank">
+          <a
+            href="https://www.linkedin.com/tabithasin"
+            target="_blank"
+            title="LinkedIn"
+          >
+            <FontAwesomeIcon icon={faLinkedinIn} size="2x" />
+          </a>{" "}
+          <a
+            href="https://www.twitter.com/lazyloading_"
+            target="_blank"
+            title="Twitter"
+          >
             <FontAwesomeIcon icon={faTwitter} size="2x" />
           </a>{" "}
-          <a href="https://www.linkedin.com/tabithasin" target="_blank">
-            <FontAwesomeIcon icon={faLinkedinIn} size="2x" />
-          </a>
         </div>
       </div>
       <Footer />
