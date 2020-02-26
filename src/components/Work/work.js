@@ -7,10 +7,15 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
+import { Carousel } from "react-bootstrap";
 import "../../components/Work/work.css";
 import dbHomepage from "../../images/devBeatz-homepage.png";
+import dbDashboard from "../../images/devbeatz-dashboard.png";
+import dbAllBeats from "../../images/devbeatz-allbeats.png";
 import projectifyHomepage from "../../images/projectify-homepage.png";
-import peaceSign from "../../images/peaceSign.svg";
+import projectifyDashboard from "../../images/projectify-dashboard.png";
+import projectifyList from "../../images/projectify-list.png";
+import projectifyLogin from "../../images/projectify-login.png";
 
 const Work = props => {
   return (
@@ -23,7 +28,22 @@ const Work = props => {
       </h2>
       <div className="card-overall">
         <div id="devBeatz-card">
-          <img src={dbHomepage} id="card-pic-db" />
+          <Carousel>
+            <Carousel.Item>
+              <img src={dbHomepage} id="card-pic-db" alt="DevBeatz Homepage" />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                src={dbDashboard}
+                id="card-pic-db"
+                alt="DevBeatz Dashboard"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img src={dbAllBeats} id="card-pic-db" alt="DevBeatz All Beats" />
+            </Carousel.Item>
+          </Carousel>
+
           <div className="card-details">
             <h5>
               DevBeatz{" "}
@@ -59,7 +79,21 @@ const Work = props => {
           </div>
         </div>
         <div id="projectify-card">
-          <img src={projectifyHomepage} id="card-pic-projectify" />
+          <Carousel>
+            <Carousel.Item>
+              <img src={projectifyHomepage} id="card-pic-projectify" />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img src={projectifyLogin} id="card-pic-projectify" />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img src={projectifyDashboard} id="card-pic-projectify" />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img src={projectifyList} id="card-pic-projectify" />
+            </Carousel.Item>
+          </Carousel>
+
           <div className="card-details">
             <h5>
               Projectify{" "}
