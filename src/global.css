@@ -10,10 +10,12 @@ body {
 h1 {
   font-family: "Londrina Outline", cursive;
   color: #a72461;
-  font-size: 5.5em;
+  font-size: 5em;
   font-weight: 800;
   letter-spacing: 25px;
   text-shadow: 2px 2px #d7f7f5;
+  display: flex;
+  justify-content: center;
 }
 
 p {
@@ -24,7 +26,7 @@ p {
   font-family: "Source Code Pro", monospace;
   /* font-weight: bold; */
   color: black;
-  font-size: 1.2em;
+  font-size: 1.1em;
   text-align: center;
 }
 

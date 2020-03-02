@@ -16,7 +16,6 @@ const Main = props => {
     <React.Fragment>
       <div id="main-box">
         <h1>TABITHA SIN</h1>
-
         <p className="bold-text">
           full stack web developer{" "}
           <span role="img" aria-label="black-square">
@@ -29,7 +28,7 @@ const Main = props => {
 
         <div id="icons">
           <Link to="/work" title="Work">
-            <FontAwesomeIcon icon={faLaptopCode} size="3x" />
+            <FontAwesomeIcon icon={faLaptopCode} size="2x" />
           </Link>{" "}
           <a
             href="https://www.github.com/tkxx"
@@ -37,21 +36,21 @@ const Main = props => {
             title="Github"
             className="icon-links"
           >
-            <FontAwesomeIcon icon={faGithub} size="3x" />
+            <FontAwesomeIcon icon={faGithub} size="2x" />
           </a>{" "}
           <a
             href="https://www.linkedin.com/tabitha-sin"
             target="_blank"
             title="LinkedIn"
           >
-            <FontAwesomeIcon icon={faLinkedinIn} size="3x" />
+            <FontAwesomeIcon icon={faLinkedinIn} size="2x" />
           </a>{" "}
           <a
             href="https://www.twitter.com/lazyloading_"
             target="_blank"
             title="Twitter"
           >
-            <FontAwesomeIcon icon={faTwitter} size="3x" />
+            <FontAwesomeIcon icon={faTwitter} size="2x" />
           </a>{" "}
         </div>
       </div>
