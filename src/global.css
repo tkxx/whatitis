@@ -24,7 +24,7 @@ p {
   font-family: "Source Code Pro", monospace;
   /* font-weight: bold; */
   color: black;
-  font-size: 1.3em;
+  font-size: 1.2em;
   text-align: center;
 }
 
@@ -72,5 +72,9 @@ a:hover {
 @media only screen and (max-width: 850px) {
   #footer-text {
     padding-top: 5%;
+  }
+
+  .bold-text {
+    line-height: 1.2;
   }
 }

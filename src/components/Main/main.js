@@ -16,7 +16,17 @@ const Main = props => {
     <React.Fragment>
       <div id="main-box">
         <h1>TABITHA SIN</h1>
-        <p className="bold-text">full stack web developer</p>
+
+        <p className="bold-text">
+          full stack web developer{" "}
+          <span role="img" aria-label="black-square">
+            //
+          </span>{" "}
+          speculative fiction aficionado
+          <p />
+          searching for the next opportunity to create change
+        </p>
+
         <div id="icons">
           <Link to="/work" title="Work">
             <FontAwesomeIcon icon={faLaptopCode} size="3x" />
