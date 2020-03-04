@@ -23,7 +23,8 @@ const Main = props => {
           </span>{" "}
           speculative fiction aficionado
           <p />
-          searching for the next opportunity to create change
+          searching for the next opportunity to create change, one line at a
+          time
         </p>
 
         <div id="icons">
