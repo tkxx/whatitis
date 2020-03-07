@@ -9,11 +9,11 @@ body {
 
 h1 {
   font-family: "Londrina Outline", cursive;
-  color: #a72461;
+  color: #7baac1;
   font-size: 5em;
   font-weight: 800;
   letter-spacing: 25px;
-  text-shadow: 2px 2px #d7f7f5;
+  text-shadow: 2px 2px #ffffff;
   display: flex;
   justify-content: center;
 }
@@ -61,11 +61,11 @@ p {
 
 a {
   text-decoration: none;
-  color: #a72461;
+  color: #7baac1;
 }
 
 a:hover {
-  color: #a72461;
+  color: #7baac1;
   opacity: 0.5;
   text-decoration: none;
 }

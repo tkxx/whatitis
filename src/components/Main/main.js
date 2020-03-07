@@ -40,7 +40,7 @@ const Main = props => {
             <FontAwesomeIcon icon={faGithub} size="2x" />
           </a>{" "}
           <a
-            href="https://www.linkedin.com/tabitha-sin"
+            href="https://www.linkedin.com/in/tabitha-sin"
             target="_blank"
             title="LinkedIn"
           >
