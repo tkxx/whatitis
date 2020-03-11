@@ -61,7 +61,7 @@ const Work = props => {
               </span>
             </h5>
             <p className="card-titles">
-              What is it?
+              What is it?{" "}
               <span className="card-body">
                 An e-commerce marketplace to connect illustrious producers with
                 vocal artists. Group project at Dev Mountain. Designed entire

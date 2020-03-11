@@ -59,6 +59,7 @@ h5 {
 .card-body {
   font-weight: 100;
   font-size: 0.8em;
+  padding: 0px;
 }
 
 #peaceSign {
@@ -82,4 +83,27 @@ h5 {
   #projectify-card {
     padding-bottom: 10%;
   }
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .card-body {
+    font-size: 0.65rem;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .card-details {
+    padding-left: 30px;
+  }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
 }

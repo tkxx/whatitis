@@ -8,7 +8,6 @@ import {
 import { faLaptopCode } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import Footer from "../Footer/footer";
-import peaceSign from "../../images/peaceSign.svg";
 import "../../global.css";
 
 const Main = props => {
